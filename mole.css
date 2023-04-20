@@ -1,0 +1,77 @@
+/* Your code here */
+
+.wgs{
+  width: 320px;
+  height: 241px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  
+
+}
+
+.wgs__mole-head{
+  top: 0;
+  left: 55px;
+  right: 77px;
+  height: 188px;
+  width: 188px;
+  transition-duration: 0.25s;
+  position: absolute;
+
+}
+
+.wgs__dirt-pile{
+  bottom: 0;
+  top: 131px;
+  height: 110px;
+  width: 320px;
+  position: absolute;
+ 
+
+}
+
+.wgs__mole-head--hidden{
+  margin-top: 242px;
+}
+.pf{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+
+ 
+}
+body {
+  zoom: 0.75;
+}
+
+.sb {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid #645DED;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+} 
+
+ .sb__mole-counter {
+  flex: 1 0 0;
+  text-align: right;
+} 
+
+.sb__score-holder {
+  flex: 1 0 0;
+}
+
+.sb__game-over--hidden {
+  display: none;
+}
+
+.wgs__mole-head--whacked{
+  border: 10px solid red;
+  border-radius: 90%;
+
+
+
+}
